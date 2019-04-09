@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="Factory1.cs" />
+    <Compile Include="Factory2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\ClassA.cs" />
+    <Compile Include="Types\ClassA1.cs" />
+    <Compile Include="Types\ClassA2.cs" />
+    <Compile Include="Types\ClassB.cs" />
+    <Compile Include="Types\ClassB1.cs" />
+    <Compile Include="Types\ClassB2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
